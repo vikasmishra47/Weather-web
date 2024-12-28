@@ -46,8 +46,8 @@ function getWeatherIcon(id) {
     if (id <= 531) return 'assets/weather/rain.svg';
     if (id <= 622) return 'assets/weather/snow.svg';
     if (id <= 781) return 'assets/weather/atmosphere.svg';
-    if (id === 800) return '"C:\Users\Hp\Downloads\clear.png"';
-    return 'C:\Users\Hp\Downloads\cloud.png';
+    if (id === 800) return'assets/weather/clear.svg';
+    return 'assets/weather/clouds.svg';
 }
 
 function getCurrentDate() {
